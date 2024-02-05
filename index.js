@@ -14,7 +14,7 @@ function checkForWin() {
  let win = false;
 
  for(let i = 0; i < 3; i++) {
-  if(poses[i].toString() === `${letter},${letter},${letter}`) { win = true; console.log(poses[i]); break;}
+  if(poses[i].toString() === `${letter},${letter},${letter}`) { win = true; break;}
 
   if(`${poses[0][i]},${poses[1][i]},${poses[2][i]}` === `${letter},${letter},${letter}`) { win = true; 
   break; }
